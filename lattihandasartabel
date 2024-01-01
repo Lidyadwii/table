@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan 2 dari pak wpu</title>
+</head>
+<body>
+    <form action="">
+        <table border="2" cellspacing="0" cellpadding="2">
+            <tr>
+                <td><label for="username">username:</label></td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td ><label for="password">password:</label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" name="jeniskelamin" id="pria"><label for="pria">pria</label>
+                <input type="radio" name="jeniskelamin" id="wanita"><label for="wanita">wanita</label>
+                <input type="radio" name="jeniskelamin" id="gepeng"><label for="gepeng">gepeng</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" name="hobi" id="nonton"><label for="nonton">nonton</label>
+                <input type="checkbox" name="hobi" id="ngoding"><label for="ngoding">ngoding</label>
+                <input type="checkbox" name="hobi" id="halu"><label for="halu">halu</label></td>
+            </tr>
+            <tr>
+                <td colspan="3"><textarea name="type here" id="type here" cols="30" rows="10">type here!</textarea></td>
+            </tr>
+            <tr>
+                <td><select name="text" id="kota">
+                    <option value="surabaya">surabaya</option>
+                    <option value="lombok">lombok</option>
+                    <option value="kalimantan">kalimantan</option>
+                    <option value="isekai">isekai</option>
+                </select></td>
+                <td colspan="3"><button>monggo dikirimin:)</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+<!-- KEKNYA BANYAK YG HARUS DIBENERIN DEH, KURANG SREG SAMA HASILNYA. BUT AT LEAST I TRIED:) -->
